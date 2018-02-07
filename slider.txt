@@ -1,0 +1,174 @@
+<div id="gallery-slider">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="home-v1-gallery-slider" class="full-width-carousel">
+                <div class="b-clear gallery-slider gallery-slider-style-1">
+                    <div class="gallery-column">
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Студия функционального тренинга</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/kinesis_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Сайкл студия</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/velo_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-column">
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Тренажерный зал</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/zal_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Зал групповых программ</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/group_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-column">
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Силовое оборудование Technogym</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/technogym_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Кардиооборудование Precor</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/precor_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-column">
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Студия зимних видов спорта</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/winter_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Занятия в парке</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/park_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-column">
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Салон красоты</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/massage_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-item-wrapper">
+                                <div class="gallery-info">
+                                    <div class="gallery-table text-center">
+                                        <div class="gallery-table-content">
+                                            <h4>Фитнес бар</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery-image">
+                                    <img class="custom_lazy" data-lazy="img/gallery/bar_476x317_e3d.jpg">
+                                </div>
+                                <div class="mask"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="full-width-carousel-nav">
+                    <div class="owl-prev"><i class="fa fa-chevron-left"></i></div>
+                    <div class="owl-next"><i class="fa fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
