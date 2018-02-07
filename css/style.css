@@ -1212,13 +1212,22 @@ background-attachment:fixed;
     margin-right: 15px;
 }
 
-.block-main-menu.main-menu-fixed .container>.navbar-header,
-.block-main-menu.main-menu-fixed .container>.navbar-collapse {
+.block-main-menu.main-menu-fixed .container>.navbar-header{
 	margin-left: 0;
 	margin-right: 0;
 	padding-left: 0;
 	padding-right: 15px;
 }
+
+.block-main-menu.main-menu-fixed .container>.navbar-collapse {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
 .block-main-menu.main-menu-fixed .container {
 	padding-left: 0;
 	padding-right: 0;
