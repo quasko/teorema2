@@ -1365,7 +1365,7 @@ background-attachment:fixed;
 .new-button {
 	background: url(../img/select_button.png) no-repeat;
     background-size: contain;
-    width: 234px;
+    
     height: 73px;
 	
 }
@@ -1380,4 +1380,8 @@ background-attachment:fixed;
 .li-new-button {
 	color: white;
     font-size: 20px;
+}
+.row {
+	margin-right: 0;
+	margin-left: 0;
 }
