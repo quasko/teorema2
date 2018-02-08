@@ -39,7 +39,7 @@
 		<section class="contacts fixedHeader">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-five social">
+				<div class="col-lg-five col-md-five hidden-sm hidden-xs social">
 					<a href="#" class="social-btn social-btn-fb">ФБ</a>
 					<a href="#" class="social-btn social-btn-tw">ТВ</a>
 					<a href="#" class="social-btn social-btn-in">in</a>
@@ -47,24 +47,31 @@
 					<a href="#" class="social-btn social-btn-odn">Од</a>
 					<a href="#" class="social-btn social-btn-youtube">YT</a>
 				</div>
-				<div class="col-lg-five phone-email">
+				<div class="col-lg-five col-md-five hidden-sm hidden-xs phone-email">
 					<p class="top-phone">+7(495) 799-93-05</p>
 					
 				</div>
 				<!--<div class="col-lg-five vubor-cluba">-->
-				<div class="col-lg-five new-button">
+				<div class="col-lg-five col-md-five col-sm-4 col-xs-6 new-button">
+					<ul class="spisok-klubov row">
+								<li class="col-lg-4"><a href="klub_petrovsko_razumovskaya.html">Петровско-Разумовская <br> ул.Дубнинская 12а <br> +7(916)-266-66-22</a></li>
+								<li class="col-lg-4"><a href="#">Чертаново <br> ул.Чертановская 7А <br> +7(916)-266-66-22</a></li>
+								<li class="col-lg-4"><a href="#">Щербинка <br> ул.Железнодорожная 44 <br> +7(916)-266-66-22</a></li>
+							</ul>
 					<ul class="ul-new-button">
 						<!--<li class="klub-button">Выбрать клуб</li>-->
 						<li class="li-new-button">Выбрать клуб</li>
-						
+						<!--
 							<ul class="spisok-klubov row">
 								<li class="col-lg-4"><a href="klub_petrovsko_razumovskaya.html">Петровско-Разумовская <br> ул.Дубнинская 12а <br> +7(916)-266-66-22</a></li>
 								<li class="col-lg-4"><a href="#">Чертаново <br> ул.Чертановская 7А <br> +7(916)-266-66-22</a></li>
 								<li class="col-lg-4"><a href="#">Щербинка <br> ул.Железнодорожная 44 <br> +7(916)-266-66-22</a></li>
 							</ul>
+						-->
 					</ul>
+					
 				</div>
-				<div class="col-lg-five phone-email email">
+				<div class="col-lg-five col-md-five col-sm-4 hidden-xs phone-email email">
 					<p class="top-email">info@teorema-sporta.ru</li>
 					<!--
 					<ul class="list-inline">
@@ -76,7 +83,7 @@
 				</div>
 				
 				
-				<div class="col-lg-five zvonok">
+				<div class="col-lg-five col-md-five col-sm-4 col-xs-6 zvonok">
 					<button class="zvonok-button">
 					
 					Заказать звонок
@@ -198,20 +205,35 @@
 						<input type="text" name="phone" placeholder="Телефон">
 					</div>
 					<div class="right-form col-lg-8">
-					<div class="row">
 						<h4> Выберете клуб, куда хотите записаться</h4>
-						<input id="club1" type="radio" name="clab-check" value="club1">
-						<label class="club col-lg-4" for="club1"> Петровско-Разумовская ул. Дубнинская 12а +7(916)266-66-22</label>
-						<input type="radio" name="clab-check" id="club2" value="club2">
-						<label class="club col-lg-4" for="club2">Чертаново ул. Чертановская 7А +7(916)266-66-22</label>
-						<input type="radio" name="clab-check" id="club3" value="club3">
-						<label class="club col-lg-4 last-club" for="club3"> Щербинка ул. Железнодорожная 44 +7(916)266-66-22</label>
-						<input type="checkbox" name="agreement" id="agreement" value="true">
-						<label class="agreement col-lg-12" for="agreement">Нажимая кнопку "записаться", я даю согласие на обработку моих персональных данных, в соответствии с федеральным законом от 27.07.2006 года № 152-ФЗ "О персональных данных" на условиях и для целей, определенных в Политике конфиденциальности персональных данных</label>
+						<div class="row">
+							<div class="col-lg-4">
+								<input id="club1" type="radio" name="clab-check" value="club1">
+								<label class="club" for="club1"> Петровско-Разумовская ул. Дубнинская 12а +7(916)266-66-22</label>
+							</div>
+							<div class="col-lg-4">
+								<input type="radio" name="clab-check" id="club2" value="club2">
+								<label class="club" for="club2">Чертаново ул. Чертановская 7А +7(916)266-66-22</label>
+							</div>
+							<div class="col-lg-4">
+								<input type="radio" name="clab-check" id="club3" value="club3">
+								<label class="club" for="club3"> Щербинка ул. Железнодорожная 44 +7(916)266-66-22</label>
+							</div>
+						</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<input type="checkbox" name="agreement" id="agreement" value="true">
+							<label class="agreement" for="agreement">Нажимая кнопку "записаться", я даю согласие на обработку моих персональных данных, в соответствии с федеральным законом от 27.07.2006 года № 152-ФЗ "О персональных данных" на условиях и для целей, определенных в Политике конфиденциальности персональных данных</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 button-center">
 						<button type="submit" name="zapisatsya-button" form="zapisatsya">Записаться</button>
+						</div>
+					</div>	
 					</div>
 					</div>
-					</div>
+
 				</form>
 			
 			</div>

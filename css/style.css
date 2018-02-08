@@ -96,7 +96,12 @@ background: url(../img/gym_icon_white.png) no-repeat;
 left: -45px;
 top: 7px;}
 .vubor-cluba:hover .spisok-klubov {display: block;}
-.new-button:hover .spisok-klubov {display: block;}
+.new-button:hover .spisok-klubov {
+	display: block;
+	
+	}
+	
+
 .spisok-klubov li a:hover {color: #4ab72a;}
 
 .phone-email {text-align: right;
@@ -107,6 +112,7 @@ color: #ffffff;
 .phone-email p {display: inline;
 margin-right: 5px;
 margin-left: 10px;
+white-space: nowrap;
 }
 .phone-email p span {font-size: 20px;
 font-weight: bold;
@@ -238,16 +244,21 @@ color: #2da220;
 font-size: 18px;
 text-align: center;}
 .right-form input {display: none;}
-.right-form .club {max-width: 210px;
+
+
+.right-form .club {width: 95%;
 height: 90px;
 color: #ffffff;
 background-color: #464652;
 padding: 10px 15px 10px 15px; 
-margin-right: 50px;
+/*margin-right: 50px;*/
 font-weight: normal;
 vertical-align: middle;
 font-size: 15px;
 position: relative;}
+
+
+
 .right-form .last-club {margin-right: 0;}
 .club:hover {color: #4ab72a;}
 input:checked+.club {color: #25780d;}
@@ -598,6 +609,14 @@ button:hover {background: #175f08;}
         width: 20%;
         float: left;
     }
+	
+	.social {
+		display: none;
+	}
+	.phone-email {
+		display: none;
+	}
+	
 }
 
 @media (min-width: 1200px) {
@@ -1118,7 +1137,7 @@ background-attachment:fixed;
 
 
 @media screen and (max-width: 768px) {
-	.block-main-menu li.logo {
+.block-main-menu li.logo {
 		display: none;
 	}
 	.block-main-menu .navbar-brand {
@@ -1137,8 +1156,11 @@ background-attachment:fixed;
 	font-size: 20px;
 	height: 53px;}
 	.contacts .vubor-cluba>ul {max-width: 180px;}
-	.contacts .zvonok {max-width:130px;
-	float: left;}
+	.contacts .zvonok {
+	/*max-width:130px;*/
+	float: left;
+	text-align: right;
+	}
 	.contacts .zvonok button {max-width: 130px;
 	font-size: 12px;
 	font-weight: bold;
@@ -1151,26 +1173,22 @@ background-attachment:fixed;
 	font-size: 15px;
 	margin-left: 70px;}
 	.contacts .spisok-klubov li:before {left: -55px;}
-	/*.promo_1 {background-position: -520px -0px;}*/
-	.promo_1 {
-		background-position: center;
-		}
-	.promo_1 p{	
-		font-size: 16px;
-	}
+	.promo_1 {background-position: center;}
+	.promo_1 p{font-size: 16px;}
 	.promo_2 {display: none;}
 	.usluga-description {padding-bottom: 10px;}
 	.usluga-description h3 {min-height: 3px;}
-	.right-form .club {margin-right: auto;}
-	.right-form button {width: 265px;
+	.right-form .club {width: 100%;}
+	.left-form input {width: 100%;}
+	.right-form button {width: 70%;
 	margin-bottom: 10px;}
-	.right-form .agreement {margin-left: 10px;}
+	/*.right-form .agreement {margin-left: 10px;}*/
 	.card-descriptoin .center {margin-bottom: 5px;}
 	.card-descriptoin p {margin-top: 15px;}
 	.card-descriptoin .weekend {padding-top: 0px;}
 	.skidka-na-kartu h2 {margin-bottom: 50px;}
 	.skidka-na-kartu .parallax {padding-top: 30px;}
-	.skidka-na-kartu button {width: 265px;
+	.skidka-na-kartu button {width: 70%;
 	margin-bottom: 15px;}
 	.address-block {display: none;}
 	.promo-text p {font-size: 22px;}
@@ -1180,7 +1198,7 @@ background-attachment:fixed;
 .promo-photo-club img {width: 300px;}
 .promo-slogan-club {padding-top: 50px;}
 .trener-introduction {margin-bottom: 15px;}
-.zapis-na-trenirovku button {width: 265px;
+.zapis-na-trenirovku button {width: 70%;
 	margin-bottom: 15px;}
 .question-form .col-lg-6 {margin-bottom: 10px;}
 
@@ -1237,9 +1255,16 @@ background-attachment:fixed;
 	border: none;
 }
 
-
+.li-new-button {
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
 
 }
+
+
+
 .phone-email .top-email::before {
 	content: "\f1fa";
 	font-family: "Font Awesome 5 Free";
@@ -1350,6 +1375,33 @@ background-attachment:fixed;
 		font-size: 20px;
 	}
 	.spisok-klubov {left: -580px;}
+	
+	
+	.ul-new-button {
+		padding: 0;
+		line-height: 46px;
+		font-size: 14px;
+		list-style: none;
+	}
+	
+	.block-main-menu.main-menu-fixed .phone-email-fixed {
+		display: none;
+		}
+	
+}
+
+@media screen and (max-width: 1370px){
+.block-main-menu.main-menu-fixed ul li.phone-email-fixed {
+	display: none;
+		}
+}
+@media screen and (max-width: 1920px){
+	.ul-new-button {
+		padding: 0;
+		line-height: 46px;
+		font-size: 14px;
+		list-style: none;
+	}
 }
 
 .promo_1 .outer {
@@ -1371,20 +1423,18 @@ background-attachment:fixed;
 	line-height: 46px;
 }
 
-.new-button {
+.ul-new-button {
 	background: url(../img/select_button.png) no-repeat;
     background-size: contain;
-    
+    background-position: top center;
     height: 73px;
+	z-index: 3000;
+    position: relative;
+}
+.new-button:hover {
 	
 }
 
-.ul-new-button {
-	padding: 0;
-    line-height: 46px;
-    font-size: 14px;
-	list-style: none;
-}
 
 .li-new-button {
 	color: white;
